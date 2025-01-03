@@ -33,6 +33,17 @@ Steps:
 5. re-run step (3)
 
 
+### Usage
+- Once server all containers are running successfully you should be able to access the services as follows:
+- Frontend: `http://localhost`
+- Backend: `http://backend.localhost`
+- Admin: `http://admin.localhost`
+
+The above is configured in `./nginx/default.conf`, for development/production containers please updated the same for actual domain name.
+Example: `localhost` will be replaced by `example.com`
+
+
+Feel free to make changes to `compose.yml` or other configurations as per your requirements.
 
 
 ## Hoppscotch setup and installation guide
